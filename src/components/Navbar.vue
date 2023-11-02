@@ -6,7 +6,7 @@
             class="nav-links fixed top-0 bottom-0 shadow-md z-10 bg-slate-50 transition-all ">
                 <ul class="flex flex-col mt-16 p-5">
                     <button type="button" @click="showNavbar" class="absolute top-10 right-5 text-2xl text-slate-600"><i class="fa-solid fa-xmark"></i></button>
-                    <li class="mt-4 py-1 px-2 cursor-pointer text-gray-700 font-normal" v-for="link in links" :key="link.id"><a :href="link.target">{{ link.label }}</a></li>
+                    <li class="mt-4 py-1 px-2 cursor-pointer text-gray-700 font-normal" v-for="link in links" :key="link.id"><a :href="link.target" @click="showNavbar">{{ link.label }}</a></li>
                 </ul>
             </div>
 
