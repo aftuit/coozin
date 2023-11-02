@@ -31,6 +31,6 @@ export default {
 .bottom-arrow {
   position: absolute;
   color: #f3f4f6;
-  bottom: -25px;
+  bottom: -22px;
 }
 </style>

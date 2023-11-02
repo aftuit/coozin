@@ -17,13 +17,13 @@
                             <Input label="Номер телефона"/>
                         </div>
                         <div class="mt-5">
-                            <Select label="Направление" class="w-full" :className="'border border-slate-300'" :options="directions"/>
+                            <Select label="Направление" class="w-full" :className="'bg-white border border-slate-300'" :options="directions"/>
                         </div>
                         <div class="mt-5">
-                            <Select label="Город" class="w-full" :className="'border border-slate-300'" :options="cities" />
+                            <Select label="Город" class="w-full" :className="'bg-white border border-slate-300'" :options="cities" />
                         </div>
                         <div class="mt-5">
-                            <Select label="Район" class="w-full" :className="'border border-slate-300'" :options="districts"/>
+                            <Select label="Район" class="w-full" :className="'bg-white border border-slate-300'" :options="districts"/>
                         </div>
                     </div>
                     <Button class="mx-auto mt-12 block px-12" type="submit">Отправить</Button>
