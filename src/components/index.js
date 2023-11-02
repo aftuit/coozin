@@ -1,0 +1,9 @@
+export { default as Navbar } from "./Navbar.vue";
+export { default as Header } from "./Header.vue";
+export { default as Education } from "./Education.vue";
+export { default as Reason } from "./Reason.vue";
+export { default as Contact } from "./Contact.vue";
+export { default as Events } from "./Events.vue";
+export { default as Comments } from "./Comments.vue";
+export { default as Card } from "./Card.vue";
+export { default as Footer } from "./Footer.vue";
